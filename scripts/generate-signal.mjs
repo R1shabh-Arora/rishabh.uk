@@ -431,7 +431,7 @@ async function main() {
       generatedAt: NOW.toISOString(),
       window: 'Last 24-48 hours (best effort via public feeds)',
       status: 'LIVE // AUTO-REFRESHED',
-      refreshSchedule: 'Daily via GitHub Actions',
+      refreshSchedule: 'Manual refresh for now (GitHub workflow scope still needed)',
       confidence: failures.length ? 'mixed confidence' : 'medium confidence',
       operatorNote: 'Auto-generated from public feeds. Ruthlessly filtered for time-worthiness, not completeness.',
       optimization: 'Operational cyber signal, useful AI movement, and creator uploads that actually earn attention.'
@@ -442,6 +442,7 @@ async function main() {
     blindSpots: [
       'YouTube summaries are metadata-based unless transcript access is explicitly available. This run does not pretend otherwise.',
       'Public RSS and channel feeds are broad but not exhaustive; some great stories miss the cut if they are poorly syndicated.',
+      'GitHub-side scheduled auto-refresh is not enabled yet because the current GitHub token could push site code but not workflow files.',
       ...(failures.length ? [`Some sources failed during refresh: ${failures.join('; ')}`] : [])
     ],
     sourcesUsed: [

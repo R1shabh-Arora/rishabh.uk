@@ -2,10 +2,10 @@
   "meta": {
     "title": "Rishabh // Signal Feed",
     "subtitle": "Cybersecurity · AI · YouTube watchlist",
-    "generatedAt": "2026-04-01T21:34:02.657Z",
+    "generatedAt": "2026-04-01T21:37:26.433Z",
     "window": "Last 24-48 hours (best effort via public feeds)",
     "status": "LIVE // AUTO-REFRESHED",
-    "refreshSchedule": "Daily via GitHub Actions",
+    "refreshSchedule": "Manual refresh for now (GitHub workflow scope still needed)",
     "confidence": "medium confidence",
     "operatorNote": "Auto-generated from public feeds. Ruthlessly filtered for time-worthiness, not completeness.",
     "optimization": "Operational cyber signal, useful AI movement, and creator uploads that actually earn attention."
@@ -79,22 +79,6 @@
     ],
     "worthASkim": [
       {
-        "title": "Hackers compromise Axios npm package to drop cross-platform malware",
-        "source": "BleepingComputer",
-        "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-axios-npm-package-to-drop-cross-platform-malware/",
-        "category": "Cybersecurity",
-        "summary": "Hackers hijacked the npm account of the Axios package, a JavaScript HTTP client with 100M+ weekly downloads, to deliver remote access trojans to Linux, Windows, and macOS systems. [...]",
-        "whyItMatters": "Supply-chain stories punch above their weight because they ripple through dependencies, CI, and trust boundaries fast.",
-        "score": 4,
-        "action": "skim",
-        "tags": [
-          "npm",
-          "malware",
-          "cyber"
-        ],
-        "published": "2026-03-31T13:53:43.000Z"
-      },
-      {
         "title": "Nissan says stolen data came from third-party vendor after hacking group claims breach",
         "source": "The Record",
         "link": "https://therecord.media/nissan-hackers-data-breach",
@@ -152,9 +136,7 @@
           "cyber"
         ],
         "published": "2026-03-31T14:00:10.000Z"
-      }
-    ],
-    "skipUnlessNiche": [
+      },
       {
         "title": "Here's what that Claude Code source leak reveals about Anthropic's plans",
         "source": "Ars Technica",
@@ -163,13 +145,15 @@
         "summary": "A persistent agent, stealth \"Undercover\" mode, and... a virtual assistant named Buddy?",
         "whyItMatters": "This matters more for workflow and infrastructure than hype. It says something about where practical AI tooling is actually moving.",
         "score": 3,
-        "action": "skip",
+        "action": "skim",
         "tags": [
           "agents",
           "AI"
         ],
         "published": "2026-04-01T20:04:04.000Z"
-      },
+      }
+    ],
+    "skipUnlessNiche": [
       {
         "title": "MAD Bugs: Claude Wrote a Full FreeBSD Remote Kernel RCE with Root Shell (CVE-2026-4747)",
         "source": "r/netsec",
@@ -200,6 +184,21 @@
           "cyber"
         ],
         "published": "2026-03-31T05:11:54.000Z"
+      },
+      {
+        "title": "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
+        "source": "TechCrunch AI",
+        "link": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/",
+        "category": "AI",
+        "summary": "LiteLLM had obtained two security compliance certifications via Delve and fell victim to some horrific credential-stealing malware last week.",
+        "whyItMatters": "Worth it if you care about AI beyond launch theater — especially tooling, agents, or deployment reality.",
+        "score": 3,
+        "action": "skip",
+        "tags": [
+          "malware",
+          "AI"
+        ],
+        "published": "2026-03-30T23:08:12.000Z"
       }
     ]
   },
@@ -305,7 +304,8 @@
   ],
   "blindSpots": [
     "YouTube summaries are metadata-based unless transcript access is explicitly available. This run does not pretend otherwise.",
-    "Public RSS and channel feeds are broad but not exhaustive; some great stories miss the cut if they are poorly syndicated."
+    "Public RSS and channel feeds are broad but not exhaustive; some great stories miss the cut if they are poorly syndicated.",
+    "GitHub-side scheduled auto-refresh is not enabled yet because the current GitHub token could push site code but not workflow files."
   ],
   "sourcesUsed": [
     "Hacker News RSS",

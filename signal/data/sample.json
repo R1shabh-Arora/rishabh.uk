@@ -2,113 +2,203 @@
   "meta": {
     "title": "Rishabh // Signal Feed",
     "subtitle": "Cybersecurity · AI · YouTube watchlist",
-    "generatedAt": "2026-04-01T20:58:00Z",
-    "window": "Seeded live preview",
-    "status": "LIVE // PREVIEW BUILD",
-    "refreshSchedule": "Daily at 08:30 Europe/London",
-    "confidence": "mixed confidence",
-    "operatorNote": "This first pass is a seeded preview from live feeds and search results. Scheduled runs will rewrite it with a tighter last-24-hours cut.",
-    "optimization": "Practical relevance, current risk, technical depth, and whether the item genuinely earns attention."
+    "generatedAt": "2026-04-01T21:37:26.433Z",
+    "window": "Last 24-48 hours (best effort via public feeds)",
+    "status": "LIVE // AUTO-REFRESHED",
+    "refreshSchedule": "Manual refresh for now (GitHub workflow scope still needed)",
+    "confidence": "medium confidence",
+    "operatorNote": "Auto-generated from public feeds. Ruthlessly filtered for time-worthiness, not completeness.",
+    "optimization": "Operational cyber signal, useful AI movement, and creator uploads that actually earn attention."
   },
   "executiveSummary": [
-    "Defender urgency is dominated by actively exploited infrastructure bugs, especially the Citrix NetScaler issue now in KEV and tied to rapid patch pressure.",
-    "Supply-chain risk is still the most immediately useful creator-side signal: John Hammond's axios coverage is the clearest 'watch this now' item in the current feed set.",
-    "AI infrastructure is still the bigger story than raw model IQ: retrieval, orchestration, and agent support tooling are where a lot of practical movement is happening.",
-    "The creator watchlist is noisy by default, so the dashboard leans hard toward technical depth and current relevance over follower count or upload novelty."
+    "New EvilTokens service fuels Microsoft device code phishing attacks is the sharpest operational signal in this refresh.",
+    "John Hammond has the strongest creator-side watch right now: HUGE npm axios supply chain attack.",
+    "The feed is intentionally filtered hard: fewer items, stronger signal, and explicit skips instead of polite clutter."
   ],
   "news": {
     "mustRead": [
       {
-        "title": "CISA orders feds to patch actively exploited Citrix flaw by Thursday",
+        "title": "New EvilTokens service fuels Microsoft device code phishing attacks",
         "source": "BleepingComputer",
-        "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-citrix-flaw-by-thursday/",
+        "link": "https://www.bleepingcomputer.com/news/security/new-eviltokens-service-fuels-microsoft-device-code-phishing-attacks/",
         "category": "Cybersecurity",
-        "summary": "CISA added CVE-2026-3055 affecting Citrix NetScaler ADC and Gateway to KEV and pushed federal agencies onto an accelerated remediation timeline. The flaw is already being exploited to obtain sensitive data.",
-        "whyItMatters": "This is straight-up operational signal. If you touch edge infrastructure, SSO, or remote access, this jumps the queue immediately.",
-        "score": 5,
-        "action": "read now",
-        "tags": ["KEV", "Citrix", "NetScaler", "active exploitation"]
-      },
-      {
-        "title": "Critical Citrix NetScaler memory flaw actively exploited in attacks",
-        "source": "BleepingComputer",
-        "link": "https://www.bleepingcomputer.com/news/security/critical-citrix-netscaler-memory-flaw-actively-exploited-in-attacks/",
-        "category": "Cybersecurity",
-        "summary": "The exploit path appears tied to a memory overread condition on NetScaler appliances that can expose sensitive information to attackers. Public reporting frames it as one of the sharper infrastructure alerts in the current cycle.",
-        "whyItMatters": "This reinforces the first item rather than duplicating it: same family, same real-world urgency, strong evidence that defenders should treat it as current-not-theoretical.",
-        "score": 5,
-        "action": "read now",
-        "tags": ["vulnerability", "edge appliances", "memory overread"]
-      },
-      {
-        "title": "Mozilla dev's 'Stack Overflow for agents' targets a key weakness in coding AI",
-        "source": "Ars Technica",
-        "link": "https://arstechnica.com/ai/2026/03/mozilla-dev-introduces-cq-a-stack-overflow-for-agents/",
-        "category": "AI",
-        "summary": "The piece covers cq, a proposal for agent-oriented question answering and shared problem resolution. The important part is not the launch itself but the recognition that agents need structured retrieval and reusable debugging pathways, not just bigger context windows.",
-        "whyItMatters": "If you care about agents being useful rather than theatrical, this sits right in the infrastructure layer that matters: better grounding, less circular slop, more repeatable workflows.",
+        "summary": "A new malicious kit called EvilTokens integrates device code phishing capabilities, allowing attackers to hijack Microsoft accounts and provide advanced features for business email compromise attacks. [...]",
+        "whyItMatters": "Useful cyber situational awareness. Not every item is a fire drill, but this one still helps track threat or defense movement.",
         "score": 4,
         "action": "read now",
-        "tags": ["agents", "retrieval", "developer tools"]
+        "tags": [
+          "cyber"
+        ],
+        "published": "2026-04-01T19:42:25.000Z"
+      },
+      {
+        "title": "Mercor confirms security incident tied to LiteLLM supply chain attack",
+        "source": "The Record",
+        "link": "https://therecord.media/mercor-confirms-security-incident-tied-to-litellm",
+        "category": "Cybersecurity",
+        "summary": "Although the LiteLLM attack was reportedly tied to a group called TeamPCP, the hacking gang Lapsus$ claimed on its website that it obtained hundreds of gigabytes of Mercor’s data.",
+        "whyItMatters": "Supply-chain stories punch above their weight because they ripple through dependencies, CI, and trust boundaries fast.",
+        "score": 4,
+        "action": "read now",
+        "tags": [
+          "supply chain",
+          "cyber"
+        ],
+        "published": "2026-04-01T18:58:00.000Z"
+      },
+      {
+        "title": "Claude Code source code accidentally leaked in NPM package",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-code-source-code-accidentally-leaked-in-npm-package/",
+        "category": "Cybersecurity",
+        "summary": "Anthropic says it accidentally leaked the source code for Claude Code, which is closed source, but the company says no customer data or credentials were exposed. [...]",
+        "whyItMatters": "Supply-chain stories punch above their weight because they ripple through dependencies, CI, and trust boundaries fast.",
+        "score": 4,
+        "action": "read now",
+        "tags": [
+          "npm",
+          "cyber"
+        ],
+        "published": "2026-04-01T00:32:25.000Z"
+      },
+      {
+        "title": "Cisco source code stolen in Trivy-linked dev environment breach",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/cisco-source-code-stolen-in-trivy-linked-dev-environment-breach/",
+        "category": "Cybersecurity",
+        "summary": "Cisco has suffered a cyberattack after threat actors used stolen credentials from the recent Trivy supply chain attack to breach its internal development environment and steal source code belonging to the comp…",
+        "whyItMatters": "Supply-chain stories punch above their weight because they ripple through dependencies, CI, and trust boundaries fast.",
+        "score": 4,
+        "action": "read now",
+        "tags": [
+          "supply chain",
+          "cyber"
+        ],
+        "published": "2026-03-31T17:53:04.000Z"
       }
     ],
     "worthASkim": [
       {
-        "title": "US seizes domains and infrastructure used in sprawling botnet campaigns",
+        "title": "Nissan says stolen data came from third-party vendor after hacking group claims breach",
         "source": "The Record",
-        "link": "https://therecord.media/us-seizes-botnet-infrastructure-four-large-networks",
+        "link": "https://therecord.media/nissan-hackers-data-breach",
         "category": "Cybersecurity",
-        "summary": "DOJ action targeted infrastructure tied to multiple botnets used for DDoS activity, including Aisuru, KimWolf, JackSkid, and Mossad. It's a useful pulse check on how commoditized disruptive capacity remains.",
-        "whyItMatters": "Good situational awareness item. Less urgent than a fresh exploitation chain, but still useful if you track takedowns, DDoS economics, or criminal infrastructure patterns.",
+        "summary": "A hacking group claimed this week to have breached the file-transfer system used by a company that offers services to Nissan and Infiniti dealerships across North America. Nissan said there was no indication \"…",
+        "whyItMatters": "Useful cyber situational awareness. Not every item is a fire drill, but this one still helps track threat or defense movement.",
         "score": 4,
         "action": "skim",
-        "tags": ["botnets", "DDoS", "law enforcement"]
+        "tags": [
+          "cyber"
+        ],
+        "published": "2026-04-01T20:00:00.000Z"
       },
       {
-        "title": "OpenAI conversation exfiltration issue reported by Check Point",
-        "source": "The Hacker News",
-        "link": "https://thehackernews.com/",
-        "category": "AI Security",
-        "summary": "The reporting claims a previously unknown issue in ChatGPT allowed sensitive conversation data to be exfiltrated without user awareness. At this stage, the item is notable but still worth validating against primary reporting before acting on every claim.",
-        "whyItMatters": "Anything that turns mainstream LLM usage into a data exposure problem matters. The caveat is confidence: this should be treated as a watch item until corroboration is stronger.",
-        "score": 3,
+        "title": "North Dakota water treatment plant reports March ransomware attack",
+        "source": "The Record",
+        "link": "https://therecord.media/north-dakota-ransomware-water-plant",
+        "category": "Cybersecurity",
+        "summary": "A water treatment plant in the city of Minot, North Dakota, was hit with ransomware but city officials said it continues to operate normally.",
+        "whyItMatters": "Useful cyber situational awareness. Not every item is a fire drill, but this one still helps track threat or defense movement.",
+        "score": 4,
         "action": "skim",
-        "tags": ["LLM security", "data exfiltration", "watch item"]
+        "tags": [
+          "ransomware",
+          "cyber"
+        ],
+        "published": "2026-04-01T18:00:00.000Z"
       },
       {
-        "title": "Cloudflare's EmDash pitch highlights plugin security as a platform problem",
-        "source": "Hacker News",
-        "link": "https://blog.cloudflare.com/emdash-wordpress/",
-        "category": "Platform Security",
-        "summary": "Cloudflare's EmDash is being framed as a spiritual successor to WordPress with plugin security as a first-class design goal. The interesting angle is the platform-level rethink, not the product hype itself.",
-        "whyItMatters": "Useful if you're tracking ecosystem-level approaches to software supply chain and extension security. Less urgent if you're looking for today's fire drill.",
+        "title": "Google Drive ransomware detection now on by default for paying users",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/google-drive-ransomware-detection-now-on-by-default-for-paying-users/",
+        "category": "Cybersecurity",
+        "summary": "Google announced that the AI-powered Google Drive ransomware detection feature has reached general availability and is now enabled by default for all paying users. [...]",
+        "whyItMatters": "Useful cyber situational awareness. Not every item is a fire drill, but this one still helps track threat or defense movement.",
         "score": 3,
         "action": "skim",
-        "tags": ["Cloudflare", "WordPress", "plugin security"]
+        "tags": [
+          "ransomware",
+          "cyber"
+        ],
+        "published": "2026-04-01T06:35:34.000Z"
+      },
+      {
+        "title": "How to Categorize AI Agents and Prioritize Risk",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/how-to-categorize-ai-agents-and-prioritize-risk/",
+        "category": "Cybersecurity",
+        "summary": "AI agent risk isn't equal, it scales with access to systems and level of autonomy. Token Security explains how CISOs should categorize agents and prioritize what to secure first. [...]",
+        "whyItMatters": "This matters more for workflow and infrastructure than hype. It says something about where practical AI tooling is actually moving.",
+        "score": 3,
+        "action": "skim",
+        "tags": [
+          "agents",
+          "cyber"
+        ],
+        "published": "2026-03-31T14:00:10.000Z"
+      },
+      {
+        "title": "Here's what that Claude Code source leak reveals about Anthropic's plans",
+        "source": "Ars Technica",
+        "link": "https://arstechnica.com/ai/2026/04/heres-what-that-claude-code-source-leak-reveals-about-anthropics-plans/",
+        "category": "AI",
+        "summary": "A persistent agent, stealth \"Undercover\" mode, and... a virtual assistant named Buddy?",
+        "whyItMatters": "This matters more for workflow and infrastructure than hype. It says something about where practical AI tooling is actually moving.",
+        "score": 3,
+        "action": "skim",
+        "tags": [
+          "agents",
+          "AI"
+        ],
+        "published": "2026-04-01T20:04:04.000Z"
       }
     ],
     "skipUnlessNiche": [
       {
-        "title": "Bluesky leans into AI with Attie, an app for building custom feeds",
-        "source": "TechCrunch",
-        "link": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
-        "category": "AI Product",
-        "summary": "Interesting consumer/product movement, but not much here moves your understanding of cyber or serious AI workflows forward.",
-        "whyItMatters": "Mostly ecosystem color unless you're specifically following social discovery and atproto tooling.",
-        "score": 2,
+        "title": "MAD Bugs: Claude Wrote a Full FreeBSD Remote Kernel RCE with Root Shell (CVE-2026-4747)",
+        "source": "r/netsec",
+        "link": "https://www.reddit.com/r/netsec/comments/1s8y8pp/mad_bugs_claude_wrote_a_full_freebsd_remote/",
+        "category": "Cybersecurity",
+        "summary": "Writeup : https://github.com/califio/publications/blob/main/MADBugs/CVE-2026-4747/write-up.md submitted by /u/maurosoria [link] [comments]",
+        "whyItMatters": "This has direct operational value: it looks like something defenders should patch, track, or triage now rather than casually bookmark.",
+        "score": 3,
         "action": "skip",
-        "tags": ["consumer AI", "social platforms"]
+        "tags": [
+          "CVE",
+          "cyber"
+        ],
+        "published": "2026-03-31T19:57:17.000Z"
       },
       {
-        "title": "The AI skills gap is here, says AI company, and power users are pulling ahead",
-        "source": "TechCrunch",
-        "link": "https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/",
-        "category": "AI Workforce",
-        "summary": "The argument is plausible and directionally interesting, but this is more macro commentary than immediately actionable signal.",
-        "whyItMatters": "Worth keeping in the back of your head, not worth stealing time from harder technical items.",
-        "score": 2,
+        "title": "Your Agent Runs Code You Never Wrote - Why agent isolation is a different problem",
+        "source": "r/netsec",
+        "link": "https://www.reddit.com/r/netsec/comments/1s8ebcc/your_agent_runs_code_you_never_wrote_why_agent/",
+        "category": "Cybersecurity",
+        "summary": "I looked at how Cursor, Claude Code, Devin, OpenAI, and E2B actually isolate agent workloads today. The range goes from literally no sandbox (Cursor runs commands in your shell) to hardware-isolated Firecracke…",
+        "whyItMatters": "Supply-chain stories punch above their weight because they ripple through dependencies, CI, and trust boundaries fast.",
+        "score": 3,
         "action": "skip",
-        "tags": ["skills gap", "workforce", "commentary"]
+        "tags": [
+          "supply chain",
+          "agents",
+          "cyber"
+        ],
+        "published": "2026-03-31T05:11:54.000Z"
+      },
+      {
+        "title": "Popular AI gateway startup LiteLLM ditches controversial startup Delve",
+        "source": "TechCrunch AI",
+        "link": "https://techcrunch.com/2026/03/30/popular-ai-gateway-startup-litellm-ditches-controversial-startup-delve/",
+        "category": "AI",
+        "summary": "LiteLLM had obtained two security compliance certifications via Delve and fell victim to some horrific credential-stealing malware last week.",
+        "whyItMatters": "Worth it if you care about AI beyond launch theater — especially tooling, agents, or deployment reality.",
+        "score": 3,
+        "action": "skip",
+        "tags": [
+          "malware",
+          "AI"
+        ],
+        "published": "2026-03-30T23:08:12.000Z"
       }
     ]
   },
@@ -117,59 +207,105 @@
       "creator": "John Hammond",
       "title": "HUGE npm axios supply chain attack",
       "link": "https://www.youtube.com/watch?v=A58cV17avpM",
-      "published": "2026-03-31T09:00:08Z",
+      "published": "2026-03-31T09:00:08.000Z",
       "basis": "metadata-based",
-      "summary": "This one looks like the strongest current creator-side signal: Hammond ties together Huntress, StepSecurity, Socket, and Aikido reporting around the axios npm compromise and related malicious package activity.",
-      "worthIt": "Yes. Even without a transcript pass here, the description and source links say this is probably the most immediately useful watch in the creator list.",
+      "summary": "https://www.huntress.com/blog/supply-chain-compromise-axios-npm-package https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan https://socket.dev/blog/axios-npm-package-co…",
+      "worthIt": "Yes. This looks like the strongest creator-side watch in the current feed pull.",
       "score": 5,
       "action": "watch",
       "confidence": "medium",
-      "tags": ["npm", "axios", "supply chain", "malware"]
+      "tags": [
+        "npm",
+        "supply chain",
+        "AI",
+        "privacy"
+      ]
     },
     {
-      "creator": "David Bombal",
-      "title": "Google Big Sleep: The End of Human Hackers?",
-      "link": "https://www.youtube.com/watch?v=Il4zammf52w",
-      "published": "2026-03-30T14:00:00Z",
+      "creator": "John Hammond",
+      "title": "🚨 NPM axios Supply Chain Attack 🚨",
+      "link": "https://www.youtube.com/watch?v=A-KpP-6Dt8E",
+      "published": "2026-03-31T05:37:45.000Z",
       "basis": "metadata-based",
-      "summary": "Long-form discussion around AI in cybersecurity, including offensive vs adversarial AI, prompt injection, jailbreaking, vector databases, automated patch diffing, and Google's autonomous zero-day work.",
-      "worthIt": "Probably worth watching if you want broader AI-in-security framing. Less urgent than a live exploitation or supply-chain item, but stronger than short-form social clips.",
+      "summary": "( huge thanks livestream partner https://jh.live/specterops-stream )",
+      "worthIt": "Probably worth watching if you want substance instead of just headline awareness.",
       "score": 4,
       "action": "watch",
       "confidence": "medium",
-      "tags": ["AI security", "prompt injection", "Big Sleep"]
+      "tags": [
+        "npm",
+        "supply chain",
+        "AI"
+      ]
     },
     {
       "creator": "NahamSec",
       "title": "I Earned $2M Hacking. Here's Everything I Know",
       "link": "https://www.youtube.com/watch?v=pbu7ElRTBrc",
-      "published": "2026-03-30T12:55:00Z",
+      "published": "2026-03-30T12:55:00.000Z",
       "basis": "metadata-based",
-      "summary": "More reflective and educational than urgent. Likely useful for bug bounty heuristics, mindset, and career pattern extraction rather than hard news value.",
-      "worthIt": "Good optional watch if you're in a bug bounty mood. Not a priority over current cyber events or more technical AI material.",
-      "score": 3,
-      "action": "summary is enough",
+      "summary": "LIKE and SUBSCRIBE with NOTIFICATIONS ON if you enjoyed the video! 👍 📚 If you want to learn bug bounty hunting from me: https://bugbounty.nahamsec.training 💻 If you want to practice some of my free labs and challenge…",
+      "worthIt": "Probably worth watching if you want substance instead of just headline awareness.",
+      "score": 4,
+      "action": "watch",
       "confidence": "medium",
-      "tags": ["bug bounty", "career", "retrospective"]
+      "tags": [
+        "bug bounty",
+        "AI"
+      ]
     },
     {
       "creator": "David Bombal",
-      "title": "Why Hide My Email FAILS",
-      "link": "https://www.youtube.com/shorts/8ET6w15hhzY",
-      "published": "2026-04-01T14:00:00Z",
+      "title": "Vibe Hacking: How AI Is Helping Hackers",
+      "link": "https://www.youtube.com/watch?v=u0ynt7CK2og",
+      "published": "2026-03-29T14:00:00.000Z",
       "basis": "metadata-based",
-      "summary": "Short-form privacy clip arguing that aliasing email addresses is not a complete privacy model if legal process or platform visibility reveals the underlying address.",
-      "worthIt": "You can safely skim the summary unless you're specifically interested in consumer privacy explainers.",
-      "score": 2,
-      "action": "skip",
+      "summary": "Big thank you to Radware for sponsoring this video. Download the Radware Global Threat Analysis Report 2026 here: https://www.radware.com/threat-analysis-report/ In this interview, David Bombal sits down with Radware's…",
+      "worthIt": "Probably worth watching if you want substance instead of just headline awareness.",
+      "score": 4,
+      "action": "watch",
       "confidence": "medium",
-      "tags": ["privacy", "Apple", "shorts"]
+      "tags": [
+        "AI",
+        "prompt injection"
+      ]
+    },
+    {
+      "creator": "David Bombal",
+      "title": "Kali Linux 2026.1 released (new undercover mode): What else has changed?",
+      "link": "https://www.youtube.com/shorts/NbuY_BOmuFM",
+      "published": "2026-03-28T18:30:00.000Z",
+      "basis": "metadata-based",
+      "summary": "New year, new release - Kali 2026.1 is here! There is everything from a fresh coat of paint to a nod to our roots, with normal ongoing improvements. Building on from December’s 2025.4, the summary of the changelog: 2026…",
+      "worthIt": "Probably worth watching if you want substance instead of just headline awareness.",
+      "score": 4,
+      "action": "watch",
+      "confidence": "medium",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "creator": "David Bombal",
+      "title": "Google Big Sleep: The End of Human Hackers?",
+      "link": "https://www.youtube.com/watch?v=Il4zammf52w",
+      "published": "2026-03-30T14:00:00.000Z",
+      "basis": "metadata-based",
+      "summary": "Big thank you to DeleteMe for sponsoring this video. Use my link http://jointdeleteme.com/Bombal to receive a 20% discount or use the QR code in the video. Welcome back to the channel! In this deep dive, Stephen returns…",
+      "worthIt": "Probably worth watching if you want substance instead of just headline awareness.",
+      "score": 4,
+      "action": "watch",
+      "confidence": "medium",
+      "tags": [
+        "AI",
+        "prompt injection"
+      ]
     }
   ],
   "blindSpots": [
-    "This preview build uses live web search, RSS, and YouTube feed metadata, but it does not yet have guaranteed direct transcript ingestion for every creator video.",
-    "Some source items above are seeded from the current live scan rather than a perfectly strict last-24-hours slice; the scheduled daily updater is configured to tighten that on future runs.",
-    "AI-security stories from single-outlet coverage should be treated as provisional until corroborated by primary sources or multiple reputable reports."
+    "YouTube summaries are metadata-based unless transcript access is explicitly available. This run does not pretend otherwise.",
+    "Public RSS and channel feeds are broad but not exhaustive; some great stories miss the cut if they are poorly syndicated.",
+    "GitHub-side scheduled auto-refresh is not enabled yet because the current GitHub token could push site code but not workflow files."
   ],
   "sourcesUsed": [
     "Hacker News RSS",
@@ -177,10 +313,10 @@
     "r/cybersecurity RSS",
     "r/artificial RSS",
     "r/MachineLearning RSS",
-    "BleepingComputer security coverage",
-    "The Record",
-    "Ars Technica AI",
-    "TechCrunch AI",
+    "BleepingComputer feed",
+    "The Record feed",
+    "TechCrunch AI feed",
+    "Ars Technica feed",
     "YouTube channel feeds for John Hammond, NahamSec, and David Bombal"
   ]
 }
