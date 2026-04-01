@@ -1,0 +1,322 @@
+{
+  "meta": {
+    "title": "Rishabh // Signal Feed",
+    "subtitle": "Cybersecurity · AI · YouTube watchlist",
+    "generatedAt": "2026-04-01T21:34:02.657Z",
+    "window": "Last 24-48 hours (best effort via public feeds)",
+    "status": "LIVE // AUTO-REFRESHED",
+    "refreshSchedule": "Daily via GitHub Actions",
+    "confidence": "medium confidence",
+    "operatorNote": "Auto-generated from public feeds. Ruthlessly filtered for time-worthiness, not completeness.",
+    "optimization": "Operational cyber signal, useful AI movement, and creator uploads that actually earn attention."
+  },
+  "executiveSummary": [
+    "New EvilTokens service fuels Microsoft device code phishing attacks is the sharpest operational signal in this refresh.",
+    "John Hammond has the strongest creator-side watch right now: HUGE npm axios supply chain attack.",
+    "The feed is intentionally filtered hard: fewer items, stronger signal, and explicit skips instead of polite clutter."
+  ],
+  "news": {
+    "mustRead": [
+      {
+        "title": "New EvilTokens service fuels Microsoft device code phishing attacks",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/new-eviltokens-service-fuels-microsoft-device-code-phishing-attacks/",
+        "category": "Cybersecurity",
+        "summary": "A new malicious kit called EvilTokens integrates device code phishing capabilities, allowing attackers to hijack Microsoft accounts and provide advanced features for business email compromise attacks. [...]",
+        "whyItMatters": "Useful cyber situational awareness. Not every item is a fire drill, but this one still helps track threat or defense movement.",
+        "score": 4,
+        "action": "read now",
+        "tags": [
+          "cyber"
+        ],
+        "published": "2026-04-01T19:42:25.000Z"
+      },
+      {
+        "title": "Mercor confirms security incident tied to LiteLLM supply chain attack",
+        "source": "The Record",
+        "link": "https://therecord.media/mercor-confirms-security-incident-tied-to-litellm",
+        "category": "Cybersecurity",
+        "summary": "Although the LiteLLM attack was reportedly tied to a group called TeamPCP, the hacking gang Lapsus$ claimed on its website that it obtained hundreds of gigabytes of Mercor’s data.",
+        "whyItMatters": "Supply-chain stories punch above their weight because they ripple through dependencies, CI, and trust boundaries fast.",
+        "score": 4,
+        "action": "read now",
+        "tags": [
+          "supply chain",
+          "cyber"
+        ],
+        "published": "2026-04-01T18:58:00.000Z"
+      },
+      {
+        "title": "Claude Code source code accidentally leaked in NPM package",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/claude-code-source-code-accidentally-leaked-in-npm-package/",
+        "category": "Cybersecurity",
+        "summary": "Anthropic says it accidentally leaked the source code for Claude Code, which is closed source, but the company says no customer data or credentials were exposed. [...]",
+        "whyItMatters": "Supply-chain stories punch above their weight because they ripple through dependencies, CI, and trust boundaries fast.",
+        "score": 4,
+        "action": "read now",
+        "tags": [
+          "npm",
+          "cyber"
+        ],
+        "published": "2026-04-01T00:32:25.000Z"
+      },
+      {
+        "title": "Cisco source code stolen in Trivy-linked dev environment breach",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/cisco-source-code-stolen-in-trivy-linked-dev-environment-breach/",
+        "category": "Cybersecurity",
+        "summary": "Cisco has suffered a cyberattack after threat actors used stolen credentials from the recent Trivy supply chain attack to breach its internal development environment and steal source code belonging to the comp…",
+        "whyItMatters": "Supply-chain stories punch above their weight because they ripple through dependencies, CI, and trust boundaries fast.",
+        "score": 4,
+        "action": "read now",
+        "tags": [
+          "supply chain",
+          "cyber"
+        ],
+        "published": "2026-03-31T17:53:04.000Z"
+      }
+    ],
+    "worthASkim": [
+      {
+        "title": "Hackers compromise Axios npm package to drop cross-platform malware",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-axios-npm-package-to-drop-cross-platform-malware/",
+        "category": "Cybersecurity",
+        "summary": "Hackers hijacked the npm account of the Axios package, a JavaScript HTTP client with 100M+ weekly downloads, to deliver remote access trojans to Linux, Windows, and macOS systems. [...]",
+        "whyItMatters": "Supply-chain stories punch above their weight because they ripple through dependencies, CI, and trust boundaries fast.",
+        "score": 4,
+        "action": "skim",
+        "tags": [
+          "npm",
+          "malware",
+          "cyber"
+        ],
+        "published": "2026-03-31T13:53:43.000Z"
+      },
+      {
+        "title": "Nissan says stolen data came from third-party vendor after hacking group claims breach",
+        "source": "The Record",
+        "link": "https://therecord.media/nissan-hackers-data-breach",
+        "category": "Cybersecurity",
+        "summary": "A hacking group claimed this week to have breached the file-transfer system used by a company that offers services to Nissan and Infiniti dealerships across North America. Nissan said there was no indication \"…",
+        "whyItMatters": "Useful cyber situational awareness. Not every item is a fire drill, but this one still helps track threat or defense movement.",
+        "score": 4,
+        "action": "skim",
+        "tags": [
+          "cyber"
+        ],
+        "published": "2026-04-01T20:00:00.000Z"
+      },
+      {
+        "title": "North Dakota water treatment plant reports March ransomware attack",
+        "source": "The Record",
+        "link": "https://therecord.media/north-dakota-ransomware-water-plant",
+        "category": "Cybersecurity",
+        "summary": "A water treatment plant in the city of Minot, North Dakota, was hit with ransomware but city officials said it continues to operate normally.",
+        "whyItMatters": "Useful cyber situational awareness. Not every item is a fire drill, but this one still helps track threat or defense movement.",
+        "score": 4,
+        "action": "skim",
+        "tags": [
+          "ransomware",
+          "cyber"
+        ],
+        "published": "2026-04-01T18:00:00.000Z"
+      },
+      {
+        "title": "Google Drive ransomware detection now on by default for paying users",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/google-drive-ransomware-detection-now-on-by-default-for-paying-users/",
+        "category": "Cybersecurity",
+        "summary": "Google announced that the AI-powered Google Drive ransomware detection feature has reached general availability and is now enabled by default for all paying users. [...]",
+        "whyItMatters": "Useful cyber situational awareness. Not every item is a fire drill, but this one still helps track threat or defense movement.",
+        "score": 3,
+        "action": "skim",
+        "tags": [
+          "ransomware",
+          "cyber"
+        ],
+        "published": "2026-04-01T06:35:34.000Z"
+      },
+      {
+        "title": "How to Categorize AI Agents and Prioritize Risk",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/how-to-categorize-ai-agents-and-prioritize-risk/",
+        "category": "Cybersecurity",
+        "summary": "AI agent risk isn't equal, it scales with access to systems and level of autonomy. Token Security explains how CISOs should categorize agents and prioritize what to secure first. [...]",
+        "whyItMatters": "This matters more for workflow and infrastructure than hype. It says something about where practical AI tooling is actually moving.",
+        "score": 3,
+        "action": "skim",
+        "tags": [
+          "agents",
+          "cyber"
+        ],
+        "published": "2026-03-31T14:00:10.000Z"
+      }
+    ],
+    "skipUnlessNiche": [
+      {
+        "title": "Here's what that Claude Code source leak reveals about Anthropic's plans",
+        "source": "Ars Technica",
+        "link": "https://arstechnica.com/ai/2026/04/heres-what-that-claude-code-source-leak-reveals-about-anthropics-plans/",
+        "category": "AI",
+        "summary": "A persistent agent, stealth \"Undercover\" mode, and... a virtual assistant named Buddy?",
+        "whyItMatters": "This matters more for workflow and infrastructure than hype. It says something about where practical AI tooling is actually moving.",
+        "score": 3,
+        "action": "skip",
+        "tags": [
+          "agents",
+          "AI"
+        ],
+        "published": "2026-04-01T20:04:04.000Z"
+      },
+      {
+        "title": "MAD Bugs: Claude Wrote a Full FreeBSD Remote Kernel RCE with Root Shell (CVE-2026-4747)",
+        "source": "r/netsec",
+        "link": "https://www.reddit.com/r/netsec/comments/1s8y8pp/mad_bugs_claude_wrote_a_full_freebsd_remote/",
+        "category": "Cybersecurity",
+        "summary": "Writeup : https://github.com/califio/publications/blob/main/MADBugs/CVE-2026-4747/write-up.md submitted by /u/maurosoria [link] [comments]",
+        "whyItMatters": "This has direct operational value: it looks like something defenders should patch, track, or triage now rather than casually bookmark.",
+        "score": 3,
+        "action": "skip",
+        "tags": [
+          "CVE",
+          "cyber"
+        ],
+        "published": "2026-03-31T19:57:17.000Z"
+      },
+      {
+        "title": "Your Agent Runs Code You Never Wrote - Why agent isolation is a different problem",
+        "source": "r/netsec",
+        "link": "https://www.reddit.com/r/netsec/comments/1s8ebcc/your_agent_runs_code_you_never_wrote_why_agent/",
+        "category": "Cybersecurity",
+        "summary": "I looked at how Cursor, Claude Code, Devin, OpenAI, and E2B actually isolate agent workloads today. The range goes from literally no sandbox (Cursor runs commands in your shell) to hardware-isolated Firecracke…",
+        "whyItMatters": "Supply-chain stories punch above their weight because they ripple through dependencies, CI, and trust boundaries fast.",
+        "score": 3,
+        "action": "skip",
+        "tags": [
+          "supply chain",
+          "agents",
+          "cyber"
+        ],
+        "published": "2026-03-31T05:11:54.000Z"
+      }
+    ]
+  },
+  "videos": [
+    {
+      "creator": "John Hammond",
+      "title": "HUGE npm axios supply chain attack",
+      "link": "https://www.youtube.com/watch?v=A58cV17avpM",
+      "published": "2026-03-31T09:00:08.000Z",
+      "basis": "metadata-based",
+      "summary": "https://www.huntress.com/blog/supply-chain-compromise-axios-npm-package https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan https://socket.dev/blog/axios-npm-package-co…",
+      "worthIt": "Yes. This looks like the strongest creator-side watch in the current feed pull.",
+      "score": 5,
+      "action": "watch",
+      "confidence": "medium",
+      "tags": [
+        "npm",
+        "supply chain",
+        "AI",
+        "privacy"
+      ]
+    },
+    {
+      "creator": "John Hammond",
+      "title": "🚨 NPM axios Supply Chain Attack 🚨",
+      "link": "https://www.youtube.com/watch?v=A-KpP-6Dt8E",
+      "published": "2026-03-31T05:37:45.000Z",
+      "basis": "metadata-based",
+      "summary": "( huge thanks livestream partner https://jh.live/specterops-stream )",
+      "worthIt": "Probably worth watching if you want substance instead of just headline awareness.",
+      "score": 4,
+      "action": "watch",
+      "confidence": "medium",
+      "tags": [
+        "npm",
+        "supply chain",
+        "AI"
+      ]
+    },
+    {
+      "creator": "NahamSec",
+      "title": "I Earned $2M Hacking. Here's Everything I Know",
+      "link": "https://www.youtube.com/watch?v=pbu7ElRTBrc",
+      "published": "2026-03-30T12:55:00.000Z",
+      "basis": "metadata-based",
+      "summary": "LIKE and SUBSCRIBE with NOTIFICATIONS ON if you enjoyed the video! 👍 📚 If you want to learn bug bounty hunting from me: https://bugbounty.nahamsec.training 💻 If you want to practice some of my free labs and challenge…",
+      "worthIt": "Probably worth watching if you want substance instead of just headline awareness.",
+      "score": 4,
+      "action": "watch",
+      "confidence": "medium",
+      "tags": [
+        "bug bounty",
+        "AI"
+      ]
+    },
+    {
+      "creator": "David Bombal",
+      "title": "Vibe Hacking: How AI Is Helping Hackers",
+      "link": "https://www.youtube.com/watch?v=u0ynt7CK2og",
+      "published": "2026-03-29T14:00:00.000Z",
+      "basis": "metadata-based",
+      "summary": "Big thank you to Radware for sponsoring this video. Download the Radware Global Threat Analysis Report 2026 here: https://www.radware.com/threat-analysis-report/ In this interview, David Bombal sits down with Radware's…",
+      "worthIt": "Probably worth watching if you want substance instead of just headline awareness.",
+      "score": 4,
+      "action": "watch",
+      "confidence": "medium",
+      "tags": [
+        "AI",
+        "prompt injection"
+      ]
+    },
+    {
+      "creator": "David Bombal",
+      "title": "Kali Linux 2026.1 released (new undercover mode): What else has changed?",
+      "link": "https://www.youtube.com/shorts/NbuY_BOmuFM",
+      "published": "2026-03-28T18:30:00.000Z",
+      "basis": "metadata-based",
+      "summary": "New year, new release - Kali 2026.1 is here! There is everything from a fresh coat of paint to a nod to our roots, with normal ongoing improvements. Building on from December’s 2025.4, the summary of the changelog: 2026…",
+      "worthIt": "Probably worth watching if you want substance instead of just headline awareness.",
+      "score": 4,
+      "action": "watch",
+      "confidence": "medium",
+      "tags": [
+        "AI"
+      ]
+    },
+    {
+      "creator": "David Bombal",
+      "title": "Google Big Sleep: The End of Human Hackers?",
+      "link": "https://www.youtube.com/watch?v=Il4zammf52w",
+      "published": "2026-03-30T14:00:00.000Z",
+      "basis": "metadata-based",
+      "summary": "Big thank you to DeleteMe for sponsoring this video. Use my link http://jointdeleteme.com/Bombal to receive a 20% discount or use the QR code in the video. Welcome back to the channel! In this deep dive, Stephen returns…",
+      "worthIt": "Probably worth watching if you want substance instead of just headline awareness.",
+      "score": 4,
+      "action": "watch",
+      "confidence": "medium",
+      "tags": [
+        "AI",
+        "prompt injection"
+      ]
+    }
+  ],
+  "blindSpots": [
+    "YouTube summaries are metadata-based unless transcript access is explicitly available. This run does not pretend otherwise.",
+    "Public RSS and channel feeds are broad but not exhaustive; some great stories miss the cut if they are poorly syndicated."
+  ],
+  "sourcesUsed": [
+    "Hacker News RSS",
+    "r/netsec RSS",
+    "r/cybersecurity RSS",
+    "r/artificial RSS",
+    "r/MachineLearning RSS",
+    "BleepingComputer feed",
+    "The Record feed",
+    "TechCrunch AI feed",
+    "Ars Technica feed",
+    "YouTube channel feeds for John Hammond, NahamSec, and David Bombal"
+  ]
+}

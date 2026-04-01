@@ -1,0 +1,56 @@
+{
+  "branding": {
+    "title": "Rishabh // Signal Feed",
+    "subtitle": "Cybersecurity · AI · YouTube watchlist",
+    "operatorNote": "Filter hard. Show signal. Don't waste his time.",
+    "optimization": "Practical relevance, current risk, technical usefulness, and whether the content actually earns attention."
+  },
+  "schedule": {
+    "cron": "30 8 * * *",
+    "timezone": "Europe/London",
+    "label": "Daily at 08:30 Europe/London"
+  },
+  "paths": {
+    "latest": "/home/mrrobot/.openclaw/workspace/dashboard/data/latest.json",
+    "archiveDir": "/home/mrrobot/.openclaw/workspace/dashboard/data/archive",
+    "sample": "/home/mrrobot/.openclaw/workspace/dashboard/data/sample.json"
+  },
+  "youtube": {
+    "mode": "best-effort",
+    "channels": [
+      {
+        "name": "John Hammond",
+        "channelId": "UCVeW9qkBjo3zosnqUbG7CFw",
+        "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVeW9qkBjo3zosnqUbG7CFw"
+      },
+      {
+        "name": "NahamSec",
+        "channelId": "UCCZDt7MuC3Hzs6IH4xODLBw",
+        "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCCZDt7MuC3Hzs6IH4xODLBw"
+      },
+      {
+        "name": "David Bombal",
+        "channelId": "UCP7WmQ_U4GB3K51Od9QvM0w",
+        "feed": "https://www.youtube.com/feeds/videos.xml?channel_id=UCP7WmQ_U4GB3K51Od9QvM0w"
+      }
+    ]
+  },
+  "sources": [
+    "https://news.ycombinator.com/rss",
+    "https://www.reddit.com/r/netsec/.rss",
+    "https://www.reddit.com/r/cybersecurity/.rss",
+    "https://www.reddit.com/r/artificial/.rss",
+    "https://www.reddit.com/r/MachineLearning/.rss",
+    "https://therecord.media/",
+    "https://www.bleepingcomputer.com/news/security/",
+    "https://arstechnica.com/ai/",
+    "https://techcrunch.com/category/artificial-intelligence/"
+  ],
+  "rules": {
+    "maxNewsItems": 9,
+    "maxVideoItems": 6,
+    "dedupeOverlappingStories": true,
+    "requireWorthItVerdict": true,
+    "requireBlindSpots": true
+  }
+}

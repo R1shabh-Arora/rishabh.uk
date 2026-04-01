@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "title": "Rishabh // Signal Feed",
+    "subtitle": "Cybersecurity · AI · YouTube watchlist",
+    "generatedAt": "2026-04-01T20:58:00Z",
+    "window": "Seeded live preview",
+    "status": "LIVE // PREVIEW BUILD",
+    "refreshSchedule": "Daily at 08:30 Europe/London",
+    "confidence": "mixed confidence",
+    "operatorNote": "This first pass is a seeded preview from live feeds and search results. Scheduled runs will rewrite it with a tighter last-24-hours cut.",
+    "optimization": "Practical relevance, current risk, technical depth, and whether the item genuinely earns attention."
+  },
+  "executiveSummary": [
+    "Defender urgency is dominated by actively exploited infrastructure bugs, especially the Citrix NetScaler issue now in KEV and tied to rapid patch pressure.",
+    "Supply-chain risk is still the most immediately useful creator-side signal: John Hammond's axios coverage is the clearest 'watch this now' item in the current feed set.",
+    "AI infrastructure is still the bigger story than raw model IQ: retrieval, orchestration, and agent support tooling are where a lot of practical movement is happening.",
+    "The creator watchlist is noisy by default, so the dashboard leans hard toward technical depth and current relevance over follower count or upload novelty."
+  ],
+  "news": {
+    "mustRead": [
+      {
+        "title": "CISA orders feds to patch actively exploited Citrix flaw by Thursday",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-citrix-flaw-by-thursday/",
+        "category": "Cybersecurity",
+        "summary": "CISA added CVE-2026-3055 affecting Citrix NetScaler ADC and Gateway to KEV and pushed federal agencies onto an accelerated remediation timeline. The flaw is already being exploited to obtain sensitive data.",
+        "whyItMatters": "This is straight-up operational signal. If you touch edge infrastructure, SSO, or remote access, this jumps the queue immediately.",
+        "score": 5,
+        "action": "read now",
+        "tags": ["KEV", "Citrix", "NetScaler", "active exploitation"]
+      },
+      {
+        "title": "Critical Citrix NetScaler memory flaw actively exploited in attacks",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/critical-citrix-netscaler-memory-flaw-actively-exploited-in-attacks/",
+        "category": "Cybersecurity",
+        "summary": "The exploit path appears tied to a memory overread condition on NetScaler appliances that can expose sensitive information to attackers. Public reporting frames it as one of the sharper infrastructure alerts in the current cycle.",
+        "whyItMatters": "This reinforces the first item rather than duplicating it: same family, same real-world urgency, strong evidence that defenders should treat it as current-not-theoretical.",
+        "score": 5,
+        "action": "read now",
+        "tags": ["vulnerability", "edge appliances", "memory overread"]
+      },
+      {
+        "title": "Mozilla dev's 'Stack Overflow for agents' targets a key weakness in coding AI",
+        "source": "Ars Technica",
+        "link": "https://arstechnica.com/ai/2026/03/mozilla-dev-introduces-cq-a-stack-overflow-for-agents/",
+        "category": "AI",
+        "summary": "The piece covers cq, a proposal for agent-oriented question answering and shared problem resolution. The important part is not the launch itself but the recognition that agents need structured retrieval and reusable debugging pathways, not just bigger context windows.",
+        "whyItMatters": "If you care about agents being useful rather than theatrical, this sits right in the infrastructure layer that matters: better grounding, less circular slop, more repeatable workflows.",
+        "score": 4,
+        "action": "read now",
+        "tags": ["agents", "retrieval", "developer tools"]
+      }
+    ],
+    "worthASkim": [
+      {
+        "title": "US seizes domains and infrastructure used in sprawling botnet campaigns",
+        "source": "The Record",
+        "link": "https://therecord.media/us-seizes-botnet-infrastructure-four-large-networks",
+        "category": "Cybersecurity",
+        "summary": "DOJ action targeted infrastructure tied to multiple botnets used for DDoS activity, including Aisuru, KimWolf, JackSkid, and Mossad. It's a useful pulse check on how commoditized disruptive capacity remains.",
+        "whyItMatters": "Good situational awareness item. Less urgent than a fresh exploitation chain, but still useful if you track takedowns, DDoS economics, or criminal infrastructure patterns.",
+        "score": 4,
+        "action": "skim",
+        "tags": ["botnets", "DDoS", "law enforcement"]
+      },
+      {
+        "title": "OpenAI conversation exfiltration issue reported by Check Point",
+        "source": "The Hacker News",
+        "link": "https://thehackernews.com/",
+        "category": "AI Security",
+        "summary": "The reporting claims a previously unknown issue in ChatGPT allowed sensitive conversation data to be exfiltrated without user awareness. At this stage, the item is notable but still worth validating against primary reporting before acting on every claim.",
+        "whyItMatters": "Anything that turns mainstream LLM usage into a data exposure problem matters. The caveat is confidence: this should be treated as a watch item until corroboration is stronger.",
+        "score": 3,
+        "action": "skim",
+        "tags": ["LLM security", "data exfiltration", "watch item"]
+      },
+      {
+        "title": "Cloudflare's EmDash pitch highlights plugin security as a platform problem",
+        "source": "Hacker News",
+        "link": "https://blog.cloudflare.com/emdash-wordpress/",
+        "category": "Platform Security",
+        "summary": "Cloudflare's EmDash is being framed as a spiritual successor to WordPress with plugin security as a first-class design goal. The interesting angle is the platform-level rethink, not the product hype itself.",
+        "whyItMatters": "Useful if you're tracking ecosystem-level approaches to software supply chain and extension security. Less urgent if you're looking for today's fire drill.",
+        "score": 3,
+        "action": "skim",
+        "tags": ["Cloudflare", "WordPress", "plugin security"]
+      }
+    ],
+    "skipUnlessNiche": [
+      {
+        "title": "Bluesky leans into AI with Attie, an app for building custom feeds",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/",
+        "category": "AI Product",
+        "summary": "Interesting consumer/product movement, but not much here moves your understanding of cyber or serious AI workflows forward.",
+        "whyItMatters": "Mostly ecosystem color unless you're specifically following social discovery and atproto tooling.",
+        "score": 2,
+        "action": "skip",
+        "tags": ["consumer AI", "social platforms"]
+      },
+      {
+        "title": "The AI skills gap is here, says AI company, and power users are pulling ahead",
+        "source": "TechCrunch",
+        "link": "https://techcrunch.com/2026/03/25/the-ai-skills-gap-is-here-says-ai-company-and-power-users-are-pulling-ahead/",
+        "category": "AI Workforce",
+        "summary": "The argument is plausible and directionally interesting, but this is more macro commentary than immediately actionable signal.",
+        "whyItMatters": "Worth keeping in the back of your head, not worth stealing time from harder technical items.",
+        "score": 2,
+        "action": "skip",
+        "tags": ["skills gap", "workforce", "commentary"]
+      }
+    ]
+  },
+  "videos": [
+    {
+      "creator": "John Hammond",
+      "title": "HUGE npm axios supply chain attack",
+      "link": "https://www.youtube.com/watch?v=A58cV17avpM",
+      "published": "2026-03-31T09:00:08Z",
+      "basis": "metadata-based",
+      "summary": "This one looks like the strongest current creator-side signal: Hammond ties together Huntress, StepSecurity, Socket, and Aikido reporting around the axios npm compromise and related malicious package activity.",
+      "worthIt": "Yes. Even without a transcript pass here, the description and source links say this is probably the most immediately useful watch in the creator list.",
+      "score": 5,
+      "action": "watch",
+      "confidence": "medium",
+      "tags": ["npm", "axios", "supply chain", "malware"]
+    },
+    {
+      "creator": "David Bombal",
+      "title": "Google Big Sleep: The End of Human Hackers?",
+      "link": "https://www.youtube.com/watch?v=Il4zammf52w",
+      "published": "2026-03-30T14:00:00Z",
+      "basis": "metadata-based",
+      "summary": "Long-form discussion around AI in cybersecurity, including offensive vs adversarial AI, prompt injection, jailbreaking, vector databases, automated patch diffing, and Google's autonomous zero-day work.",
+      "worthIt": "Probably worth watching if you want broader AI-in-security framing. Less urgent than a live exploitation or supply-chain item, but stronger than short-form social clips.",
+      "score": 4,
+      "action": "watch",
+      "confidence": "medium",
+      "tags": ["AI security", "prompt injection", "Big Sleep"]
+    },
+    {
+      "creator": "NahamSec",
+      "title": "I Earned $2M Hacking. Here's Everything I Know",
+      "link": "https://www.youtube.com/watch?v=pbu7ElRTBrc",
+      "published": "2026-03-30T12:55:00Z",
+      "basis": "metadata-based",
+      "summary": "More reflective and educational than urgent. Likely useful for bug bounty heuristics, mindset, and career pattern extraction rather than hard news value.",
+      "worthIt": "Good optional watch if you're in a bug bounty mood. Not a priority over current cyber events or more technical AI material.",
+      "score": 3,
+      "action": "summary is enough",
+      "confidence": "medium",
+      "tags": ["bug bounty", "career", "retrospective"]
+    },
+    {
+      "creator": "David Bombal",
+      "title": "Why Hide My Email FAILS",
+      "link": "https://www.youtube.com/shorts/8ET6w15hhzY",
+      "published": "2026-04-01T14:00:00Z",
+      "basis": "metadata-based",
+      "summary": "Short-form privacy clip arguing that aliasing email addresses is not a complete privacy model if legal process or platform visibility reveals the underlying address.",
+      "worthIt": "You can safely skim the summary unless you're specifically interested in consumer privacy explainers.",
+      "score": 2,
+      "action": "skip",
+      "confidence": "medium",
+      "tags": ["privacy", "Apple", "shorts"]
+    }
+  ],
+  "blindSpots": [
+    "This preview build uses live web search, RSS, and YouTube feed metadata, but it does not yet have guaranteed direct transcript ingestion for every creator video.",
+    "Some source items above are seeded from the current live scan rather than a perfectly strict last-24-hours slice; the scheduled daily updater is configured to tighten that on future runs.",
+    "AI-security stories from single-outlet coverage should be treated as provisional until corroborated by primary sources or multiple reputable reports."
+  ],
+  "sourcesUsed": [
+    "Hacker News RSS",
+    "r/netsec RSS",
+    "r/cybersecurity RSS",
+    "r/artificial RSS",
+    "r/MachineLearning RSS",
+    "BleepingComputer security coverage",
+    "The Record",
+    "Ars Technica AI",
+    "TechCrunch AI",
+    "YouTube channel feeds for John Hammond, NahamSec, and David Bombal"
+  ]
+}
