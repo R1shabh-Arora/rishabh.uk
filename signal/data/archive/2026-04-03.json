@@ -1,0 +1,293 @@
+{
+  "meta": {
+    "title": "Rishabh // Signal Feed",
+    "subtitle": "Cybersecurity · AI · YouTube watchlist",
+    "generatedAt": "2026-04-03T08:00:25.611Z",
+    "window": "Last 24-48 hours (best effort via public feeds)",
+    "status": "LIVE // AUTO-REFRESHED",
+    "refreshSchedule": "Manual refresh for now (GitHub workflow scope still needed)",
+    "confidence": "medium confidence",
+    "operatorNote": "Auto-generated from public feeds. Ruthlessly filtered for time-worthiness, not completeness.",
+    "optimization": "Operational cyber signal, useful AI movement, and creator uploads that actually earn attention."
+  },
+  "executiveSummary": [
+    "First analysis & detection pack for the Claude Code source leak is the sharpest operational signal in this refresh.",
+    "John Hammond has the strongest creator-side watch right now: HUGE npm axios supply chain attack.",
+    "The feed is intentionally filtered hard: fewer items, stronger signal, and explicit skips instead of polite clutter."
+  ],
+  "news": {
+    "mustRead": [
+      {
+        "title": "First analysis & detection pack for the Claude Code source leak",
+        "source": "r/cybersecurity",
+        "link": "https://www.reddit.com/r/cybersecurity/comments/1sb45bw/first_analysis_detection_pack_for_the_claude_code/",
+        "category": "Cybersecurity",
+        "summary": "On March 31, 2026, Anthropic leaked \\~60MB of Claude Code internal TypeScript via a misconfigured source map. Same day, ` axios@1.14.1 ` was compromised on npm with an embedded RAT. The leak exposed undocument…",
+        "whyItMatters": "This has direct operational value: it looks like something defenders should patch, track, or triage now rather than casually bookmark.",
+        "score": 5,
+        "action": "read now",
+        "tags": [
+          "CVE",
+          "npm",
+          "agents",
+          "retrieval"
+        ],
+        "published": "2026-04-03T04:52:09.000Z"
+      },
+      {
+        "title": "Apple expands iOS 18 updates to more iPhones to block DarkSword attacks",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/apple-expands-ios-18-updates-to-more-iphones-to-block-darksword-attacks/",
+        "category": "Cybersecurity",
+        "summary": "Apple has now made it possible for more iPhones still running iOS 18 to receive security updates that protect against the actively exploited DarkSword exploit kit. [...]",
+        "whyItMatters": "This has direct operational value: it looks like something defenders should patch, track, or triage now rather than casually bookmark.",
+        "score": 5,
+        "action": "read now",
+        "tags": [
+          "active exploitation",
+          "cyber"
+        ],
+        "published": "2026-04-01T21:50:49.000Z"
+      }
+    ],
+    "worthASkim": [
+      {
+        "title": "New EvilTokens service fuels Microsoft device code phishing attacks",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/new-eviltokens-service-fuels-microsoft-device-code-phishing-attacks/",
+        "category": "Cybersecurity",
+        "summary": "A new malicious kit called EvilTokens integrates device code phishing capabilities, allowing attackers to hijack Microsoft accounts and provide advanced features for business email compromise attacks. [...]",
+        "whyItMatters": "Useful cyber situational awareness. Not every item is a fire drill, but this one still helps track threat or defense movement.",
+        "score": 4,
+        "action": "skim",
+        "tags": [
+          "cyber"
+        ],
+        "published": "2026-04-01T19:42:25.000Z"
+      },
+      {
+        "title": "CERT-EU: European Commission hack exposes data of 30 EU entities",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/cert-eu-european-commission-hack-exposes-data-of-30-eu-entities/",
+        "category": "Cybersecurity",
+        "summary": "The European Union's Cybersecurity Service (CERT-EU) has attributed the European Commission cloud hack to the TeamPCP threat group, saying the resulting breach exposed the data of at least 29 other Union entit…",
+        "whyItMatters": "Useful cyber situational awareness. Not every item is a fire drill, but this one still helps track threat or defense movement.",
+        "score": 4,
+        "action": "skim",
+        "tags": [
+          "cyber"
+        ],
+        "published": "2026-04-03T06:33:34.000Z"
+      },
+      {
+        "title": "Claude Code leak used to push infostealer malware on GitHub",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/claude-code-leak-used-to-push-infostealer-malware-on-github/",
+        "category": "Cybersecurity",
+        "summary": "Threat actors are exploiting the recent Claude Code source code leak by using fake GitHub repositories to deliver Vidar information-stealing malware. [...]",
+        "whyItMatters": "Useful cyber situational awareness. Not every item is a fire drill, but this one still helps track threat or defense movement.",
+        "score": 4,
+        "action": "skim",
+        "tags": [
+          "malware",
+          "cyber"
+        ],
+        "published": "2026-04-02T20:30:55.000Z"
+      },
+      {
+        "title": "New CrystalRAT malware adds RAT, stealer and prankware features",
+        "source": "BleepingComputer",
+        "link": "https://www.bleepingcomputer.com/news/security/new-crystalrat-malware-adds-rat-stealer-and-prankware-features/",
+        "category": "Cybersecurity",
+        "summary": "A new malware-as-a-service called CrystalRAT is being promoted on Telegram, offering remote access, data theft, keylogging, and clipboard hijacking capabilities. [...]",
+        "whyItMatters": "Useful cyber situational awareness. Not every item is a fire drill, but this one still helps track threat or defense movement.",
+        "score": 3,
+        "action": "skim",
+        "tags": [
+          "malware",
+          "cyber"
+        ],
+        "published": "2026-04-01T23:17:09.000Z"
+      },
+      {
+        "title": "Nissan says stolen data came from third-party vendor after hacking group claims breach",
+        "source": "The Record",
+        "link": "https://therecord.media/nissan-hackers-data-breach",
+        "category": "Cybersecurity",
+        "summary": "A hacking group claimed this week to have breached the file-transfer system used by a company that offers services to Nissan and Infiniti dealerships across North America. Nissan said there was no indication \"…",
+        "whyItMatters": "Useful cyber situational awareness. Not every item is a fire drill, but this one still helps track threat or defense movement.",
+        "score": 3,
+        "action": "skim",
+        "tags": [
+          "cyber"
+        ],
+        "published": "2026-04-01T20:00:00.000Z"
+      }
+    ],
+    "skipUnlessNiche": [
+      {
+        "title": "[Research] We found MCP servers telling AI agents to act \"secretly\", skip financial approvals, and hide actions from users. Census of 15,982 packages.",
+        "source": "r/cybersecurity",
+        "link": "https://www.reddit.com/r/cybersecurity/comments/1sanrxx/research_we_found_mcp_servers_telling_ai_agents/",
+        "category": "Cybersecurity",
+        "summary": "Last week we audited 100 MCP servers. People asked us to scale it up. We scanned every MCP package on npm and PyPI. 15,982 servers, 40,081 tools, 137,070 findings. Here's what stood out: A thermostat that tell…",
+        "whyItMatters": "Supply-chain stories punch above their weight because they ripple through dependencies, CI, and trust boundaries fast.",
+        "score": 3,
+        "action": "skip",
+        "tags": [
+          "npm",
+          "agents",
+          "cyber"
+        ],
+        "published": "2026-04-02T17:25:13.000Z"
+      },
+      {
+        "title": "Mongoose: Preauth RCE and mTLS Bypass on Millions of Devices",
+        "source": "r/netsec",
+        "link": "https://www.reddit.com/r/netsec/comments/1sahl4e/mongoose_preauth_rce_and_mtls_bypass_on_millions/",
+        "category": "Cybersecurity",
+        "summary": "Mongoose network library CVE-2026-5244 - mg_tls_recv_cert pubkey heap-based overflow (exploitable) CVE-2026-5245 - mDNS Record stack-based overflow (exploitable) CVE-2026-5246 - authorization bypass via P-384…",
+        "whyItMatters": "This has direct operational value: it looks like something defenders should patch, track, or triage now rather than casually bookmark.",
+        "score": 3,
+        "action": "skip",
+        "tags": [
+          "CVE",
+          "cyber"
+        ],
+        "published": "2026-04-02T13:35:22.000Z"
+      },
+      {
+        "title": "You’re Not Supposed To ShareFile With Everyone (Progress ShareFile Pre-Auth RCE Chain CVE-2026-2699 & CVE-2026-2701) - watchTowr Labs",
+        "source": "r/netsec",
+        "link": "https://www.reddit.com/r/netsec/comments/1saebwi/youre_not_supposed_to_sharefile_with_everyone/",
+        "category": "Cybersecurity",
+        "summary": "submitted by /u/dx7r__ [link] [comments]",
+        "whyItMatters": "This has direct operational value: it looks like something defenders should patch, track, or triage now rather than casually bookmark.",
+        "score": 3,
+        "action": "skip",
+        "tags": [
+          "CVE",
+          "cyber"
+        ],
+        "published": "2026-04-02T11:06:09.000Z"
+      }
+    ]
+  },
+  "videos": [
+    {
+      "creator": "John Hammond",
+      "title": "HUGE npm axios supply chain attack",
+      "link": "https://www.youtube.com/watch?v=A58cV17avpM",
+      "published": "2026-03-31T09:00:08.000Z",
+      "basis": "metadata-based",
+      "summary": "https://www.huntress.com/blog/supply-chain-compromise-axios-npm-package https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan https://socket.dev/blog/axios-npm-package-co…",
+      "worthIt": "Yes. This looks like the strongest creator-side watch in the current feed pull.",
+      "score": 5,
+      "action": "watch",
+      "confidence": "medium",
+      "tags": [
+        "npm",
+        "supply chain",
+        "AI",
+        "privacy"
+      ]
+    },
+    {
+      "creator": "NahamSec",
+      "title": "I Earned $2M Hacking. Here's Everything I Know",
+      "link": "https://www.youtube.com/watch?v=pbu7ElRTBrc",
+      "published": "2026-03-30T12:55:00.000Z",
+      "basis": "metadata-based",
+      "summary": "LIKE and SUBSCRIBE with NOTIFICATIONS ON if you enjoyed the video! 👍 📚 If you want to learn bug bounty hunting from me: https://bugbounty.nahamsec.training 💻 If you want to practice some of my free labs and challenge…",
+      "worthIt": "Probably worth watching if you want substance instead of just headline awareness.",
+      "score": 4,
+      "action": "watch",
+      "confidence": "medium",
+      "tags": [
+        "bug bounty",
+        "AI"
+      ]
+    },
+    {
+      "creator": "David Bombal",
+      "title": "Google Big Sleep: The End of Human Hackers?",
+      "link": "https://www.youtube.com/watch?v=Il4zammf52w",
+      "published": "2026-03-30T14:00:00.000Z",
+      "basis": "metadata-based",
+      "summary": "Big thank you to DeleteMe for sponsoring this video. Use my link http://jointdeleteme.com/Bombal to receive a 20% discount or use the QR code in the video. Welcome back to the channel! In this deep dive, Stephen returns…",
+      "worthIt": "Probably worth watching if you want substance instead of just headline awareness.",
+      "score": 4,
+      "action": "watch",
+      "confidence": "medium",
+      "tags": [
+        "AI",
+        "prompt injection"
+      ]
+    },
+    {
+      "creator": "David Bombal",
+      "title": "Vibe Hacking: How AI Is Helping Hackers",
+      "link": "https://www.youtube.com/watch?v=u0ynt7CK2og",
+      "published": "2026-03-29T14:00:00.000Z",
+      "basis": "metadata-based",
+      "summary": "Big thank you to Radware for sponsoring this video. Download the Radware Global Threat Analysis Report 2026 here: https://www.radware.com/threat-analysis-report/ In this interview, David Bombal sits down with Radware's…",
+      "worthIt": "Probably worth watching if you want substance instead of just headline awareness.",
+      "score": 4,
+      "action": "watch",
+      "confidence": "medium",
+      "tags": [
+        "AI",
+        "prompt injection"
+      ]
+    },
+    {
+      "creator": "John Hammond",
+      "title": "🚨 NPM axios Supply Chain Attack 🚨",
+      "link": "https://www.youtube.com/watch?v=A-KpP-6Dt8E",
+      "published": "2026-03-31T05:37:45.000Z",
+      "basis": "metadata-based",
+      "summary": "( huge thanks livestream partner https://jh.live/specterops-stream )",
+      "worthIt": "Probably worth watching if you want substance instead of just headline awareness.",
+      "score": 4,
+      "action": "watch",
+      "confidence": "medium",
+      "tags": [
+        "npm",
+        "supply chain",
+        "AI"
+      ]
+    },
+    {
+      "creator": "David Bombal",
+      "title": "Kali Linux 2026.1 released (new undercover mode): What else has changed?",
+      "link": "https://www.youtube.com/shorts/NbuY_BOmuFM",
+      "published": "2026-03-28T18:30:00.000Z",
+      "basis": "metadata-based",
+      "summary": "New year, new release - Kali 2026.1 is here! There is everything from a fresh coat of paint to a nod to our roots, with normal ongoing improvements. Building on from December’s 2025.4, the summary of the changelog: 2026…",
+      "worthIt": "Probably worth watching if you want substance instead of just headline awareness.",
+      "score": 4,
+      "action": "watch",
+      "confidence": "medium",
+      "tags": [
+        "AI"
+      ]
+    }
+  ],
+  "blindSpots": [
+    "YouTube summaries are metadata-based unless transcript access is explicitly available. This run does not pretend otherwise.",
+    "Public RSS and channel feeds are broad but not exhaustive; some great stories miss the cut if they are poorly syndicated.",
+    "GitHub-side scheduled auto-refresh is not enabled yet because the current GitHub token could push site code but not workflow files."
+  ],
+  "sourcesUsed": [
+    "Hacker News RSS",
+    "r/netsec RSS",
+    "r/cybersecurity RSS",
+    "r/artificial RSS",
+    "r/MachineLearning RSS",
+    "BleepingComputer feed",
+    "The Record feed",
+    "TechCrunch AI feed",
+    "Ars Technica feed",
+    "YouTube channel feeds for John Hammond, NahamSec, and David Bombal"
+  ]
+}
